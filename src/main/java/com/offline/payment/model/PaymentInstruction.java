@@ -1,3 +1,8 @@
+
+/*
+The PaymentInstruction is the private "letter" that contains the secrets—
+who is paying whom, how much, and the PIN hash that authorizes it.
+ */
 package com.offline.payment.model;
 
 import java.math.BigDecimal;
