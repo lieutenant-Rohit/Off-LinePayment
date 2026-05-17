@@ -20,7 +20,7 @@ public class HybridCryptoService {
     public HybridCryptoService()throws Exception
     {
         //Generates the Bank's RSA Kets when the server starts
-        KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
+        KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA"); //Factory Pattern Method
         keyGen.initialize(2048); //2048-bit military grade security
         KeyPair pair = keyGen.generateKeyPair();
         this.bankPrivateKey = pair.getPrivate();
