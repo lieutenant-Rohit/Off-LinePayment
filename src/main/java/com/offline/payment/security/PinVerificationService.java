@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Base64;
-
+//Class is used this to verify user identity when he is offline
 @Service
 public class PinVerificationService {
 
